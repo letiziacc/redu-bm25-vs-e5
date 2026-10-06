@@ -84,7 +84,7 @@ pip install -r requirements.txt
 | `python tp_busca.py analisar` | Aplica os testes e gera `saida/resultados.json` |
 | `python exploratoria.py` | Gera os arquivos `exploratoria*` |
 
-**Atenção:** o REDU muda com o tempo. A coleta usada no relatório foi feita em **27/09/2026, às 14h06**, com 2.219 conjuntos publicados. Uma nova coleta pode trazer outros conjuntos e, portanto, números um pouco diferentes. Os sorteios do teste e do *bootstrap* usam semente fixa (`20260923`), então os mesmos dados sempre geram os mesmos resultados.
+**Atenção:** o REDU muda com o tempo. A coleta usada no relatório foi feita em **27/09/2026**, com 2.219 conjuntos publicados. Uma nova coleta pode trazer outros conjuntos e, portanto, números um pouco diferentes. Os sorteios do teste e do *bootstrap* usam semente fixa (`20260923`), então os mesmos dados sempre geram os mesmos resultados.
 
 ---
 
