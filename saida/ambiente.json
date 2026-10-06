@@ -1,0 +1,31 @@
+{
+  "data": "2026-09-27T14:27:58.619167",
+  "python": "3.12.10",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "base_url": "https://redu.unicamp.br",
+    "per_page": 1000,
+    "pausa_s": 1.0,
+    "min_keywords": 2,
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "modelo_B": "intfloat/multilingual-e5-small",
+    "top_k_hit": 10,
+    "alpha": 0.05,
+    "n_permutacoes": 100000,
+    "n_bootstrap": 10000,
+    "seed": 20260923
+  },
+  "preparacao": {
+    "n_coletados": 2219,
+    "excl_sem_texto": 0,
+    "n_corpus": 2219,
+    "n_consultas": 2047,
+    "sem_consulta_menos_de_2_keywords": 172
+  },
+  "metodo_B": "intfloat/multilingual-e5-small",
+  "tempo_total_A_s": 1.655945200000133,
+  "tempo_total_B_s": 93.1627884999998,
+  "sentence_transformers": "6.1.0",
+  "sklearn": "1.9.1"
+}

@@ -1,0 +1,41 @@
+{
+  "n_consultas": 2047,
+  "MRR_A": 0.7369591166684331,
+  "MRR_B": 0.7287667785006161,
+  "dif_MRR_B_menos_A": -0.00819233816781689,
+  "IC95_bootstrap_dif": [
+    -0.02344242079406734,
+    0.0072561636583156576
+  ],
+  "principal_aleatorizacao": {
+    "p": 0.2947170528294717,
+    "n_permutacoes": 100000
+  },
+  "concordancia_t_pareado": {
+    "t": -1.0456229918166369,
+    "p": 0.29585864458939326
+  },
+  "concordancia_wilcoxon": {
+    "W": 180252.5,
+    "p": 0.46788078338506744,
+    "n_empates_zero": 1186
+  },
+  "consultas_B_melhor_pior_empate": [
+    453,
+    408,
+    1186
+  ],
+  "Hit@10_A": 0.8539325842696629,
+  "Hit@10_B": 0.8764044943820225,
+  "secundario_mcnemar_midp_hit10": {
+    "b_so_B_acha": 154,
+    "c_so_A_acha": 108,
+    "n_discordantes": 262,
+    "p_midp": 0.004470750335110003,
+    "p_exato": 0.005334284168014534
+  },
+  "mediana_posicao_A": 1.0,
+  "mediana_posicao_B": 1.0,
+  "n_nao_encontrados_por_nenhum_top10": 145,
+  "decisao": "não rejeita H0 (alfa=0.05)"
+}

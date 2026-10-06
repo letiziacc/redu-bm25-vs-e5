@@ -1,0 +1,84 @@
+{
+  "G0 nenhuma": {
+    "n": 142,
+    "MRR_A": 0.0008345111253917635,
+    "MRR_B": 0.25901644196259516,
+    "dif_B_menos_A": 0.2581819308372034,
+    "B_melhor_pior_empate": [
+      139,
+      3,
+      0
+    ],
+    "mediana_pos_A": 1145.75,
+    "mediana_pos_B": 23.0,
+    "p_aleatorizacao": 1.999980000199998e-05,
+    "IC95_bootstrap_dif": [
+      0.19725610247254222,
+      0.3216577768190635
+    ],
+    "Hit@10_A": 0.0,
+    "Hit@10_B": 0.3873239436619718,
+    "mcnemar_midp": {
+      "b_so_B_acha": 55,
+      "c_so_A_acha": 0,
+      "n_discordantes": 55,
+      "p_midp": 2.7755575615628975e-17,
+      "p_exato": 5.551115123125783e-17
+    }
+  },
+  "G1 parcial": {
+    "n": 1682,
+    "MRR_A": 0.7667579139360742,
+    "MRR_B": 0.7405118502539517,
+    "dif_B_menos_A": -0.026246063682122404,
+    "B_melhor_pior_empate": [
+      311,
+      387,
+      984
+    ],
+    "mediana_pos_A": 1.0,
+    "mediana_pos_B": 1.0,
+    "p_aleatorizacao": 0.0027399726002739974,
+    "IC95_bootstrap_dif": [
+      -0.04335492738452508,
+      -0.008901979321648046
+    ],
+    "Hit@10_A": 0.9066587395957194,
+    "Hit@10_B": 0.9030915576694412,
+    "mcnemar_midp": {
+      "b_so_B_acha": 99,
+      "c_so_A_acha": 105,
+      "n_discordantes": 204,
+      "p_midp": 0.675277131419963,
+      "p_exato": 0.7263810777955163
+    }
+  },
+  "G2 todas": {
+    "n": 223,
+    "MRR_A": 0.9809417040358744,
+    "MRR_B": 0.9393019224436134,
+    "dif_B_menos_A": -0.04163978159226089,
+    "B_melhor_pior_empate": [
+      3,
+      18,
+      202
+    ],
+    "mediana_pos_A": 1.0,
+    "mediana_pos_B": 1.0,
+    "p_aleatorizacao": 0.0005599944000559995,
+    "IC95_bootstrap_dif": [
+      -0.06663269631865264,
+      -0.018576538099703676
+    ],
+    "Hit@10_A": 1.0,
+    "Hit@10_B": 0.9865470852017937,
+    "mcnemar_midp": {
+      "b_so_B_acha": 0,
+      "c_so_A_acha": 3,
+      "n_discordantes": 3,
+      "p_midp": 0.12499999999999999,
+      "p_exato": 0.25
+    }
+  },
+  "_nota": "ANÁLISE EXPLORATÓRIA pós-hoc; 6 testes -> limiar de Bonferroni 0.0083. Não substitui o resultado confirmatório."
+}
