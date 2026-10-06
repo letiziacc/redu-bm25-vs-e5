@@ -1,0 +1,10 @@
+# Ambiente virtual e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Metadados coletados do REDU (recriados por: python tp_busca.py coletar)
+saida/redu_metadados.csv
+
+# Saídas do autoteste com dados sintéticos
+saida_AUTOTESTE_sintetico/
