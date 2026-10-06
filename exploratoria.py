@@ -1,7 +1,7 @@
 """
 ANÁLISE EXPLORATÓRIA (pós-hoc) — divergência de vocabulário.
 
-Decidida DEPOIS de ver os resultados principais; não substitui o teste confirmatório.
+Decidida depois de ver os resultados principais; não substitui o teste confirmatório.
 Pergunta: a diferença entre A (BM25) e B (E5) depende de quanto as palavras da consulta
 aparecem literalmente no título + descrição do dataset certo?
 
