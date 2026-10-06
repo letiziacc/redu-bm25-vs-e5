@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-TP de Metodologia Científica — Encontrabilidade de datasets no REDU
-Pergunta: uma busca semântica (B) encontra o dataset certo melhor do que a busca por
-palavras BM25 (A), o tipo de ranqueamento usado pelo Solr do Dataverse?
-
 Desenho (busca de item conhecido / known-item search):
   - Índice: título + descrição de TODOS os datasets publicados.
   - Consultas: as palavras-chave de cada dataset que tem >= 2 palavras-chave.
